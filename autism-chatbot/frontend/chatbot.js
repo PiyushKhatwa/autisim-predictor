@@ -70,7 +70,7 @@ async function sendMessage() {
 
 async function sendToBackend() {
     try {
-        let res = await fetch("http://127.0.0.1:8000/predict", {
+        let res = await fetch("https://autism-backend-d8c1.onrender.com/predict", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(answers),
