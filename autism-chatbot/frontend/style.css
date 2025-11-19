@@ -84,3 +84,26 @@ button {
     from { opacity: 0; transform: translateY(5px); }
     to { opacity: 1; transform: translateY(0); }
 }
+
+/* Footer Styling */
+.pk-footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    color: #ccc;
+    background: linear-gradient(to right, #111, #1a1a1a);
+    border-top: 1px solid #333;
+    border-radius: 0 0 12px 12px;
+}
+
+.pk-footer span {
+    color: #00ffc8;
+    font-weight: 600;
+}
+
+.pk-footer:hover span {
+    color: #4dffe0;
+    text-shadow: 0 0 8px #4dffe0;
+}
